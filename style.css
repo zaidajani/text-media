@@ -1,0 +1,51 @@
+.ttm {
+  font-size: 80px;
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+form {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.texts {
+  margin-top: 5%;
+}
+
+.spinner {
+  width: 80px;
+  height: 80px;
+
+  border: 2px solid #f3f3f3;
+  border-top: 3px solid #f25a41;
+  border-radius: 100%;
+
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+
+  margin-top: 400px;
+
+  animation: spin 1s infinite linear;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#overlay {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+}
